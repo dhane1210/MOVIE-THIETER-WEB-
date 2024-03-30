@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+body {
+  padding: 80px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+#login-container {
+  height: 500px;
+  max-width: 400px;
+  margin: auto;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.1); /* Adjust the opacity as needed */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px); /* Adjust the blur intensity as needed */
+}
+
+#login-container .form-group {
+  margin-bottom: 20px;
+}
+
+#login-container .userlgn {
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+
+#login-container input[type="email"],
+#login-container input[type="password"],
+#login-container input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 16px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+#login-container input[type="email"]:focus,
+#login-container input[type="password"]:focus {
+  border-color: #007bff;
+}
+
+#login-container input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+#login-container input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+#login-container a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#login-container a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+body {
+  padding: 80px;
+  position: relative;
+  background-color: rgb(33, 33, 45);
+  background-size: cover;
+  background-position: center;
+}
+.booking {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  display: flex;
+  align-items: center;
+  color: rgb(29, 29, 46); /* Set text color to white */
+}
+.img1 {
+  position: absolute;
+  top: 0;
+  left: 0; /* Make the image cover the entire width */
+  z-index: -1;
+}
+.img1 img {
+  max-width: 100%; /* Ensure image doesn't exceed container width */
+  height: 640px; /* Maintain aspect ratio */
+  width: auto;
+}
+.buytick {
+  margin-top: 12%;
+}
+.title {
+  position: absolute;
+  font-size: 40px; /* Set font size to 24px */
+  margin-top: 16%;
+}
+.par {
+  margin-right: auto;
+  font-size: 13px; /* Set font size to 18px */
+  padding: 30px; /* Add padding to create space around the text */
+  border: none; /* Add border */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  width: 560px; /* Set width of the box */
+  backdrop-filter: blur(5px);
+}
+
+.booking-form-container {
+  background-color: rgb(29, 29, 46);
+  margin-top: 15%;
+  height: 600px;
+  position: relative;
+  border-radius: 50px;
+  top: 60%;
+  left: 0;
+  padding: 20px;
+  backdrop-filter: blur(5px);
+  font-family: "League Spartan", sans-serif;
+  box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.991);
+}
+
+.booking-form-container form {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; /* Arrange form items vertically */
+  align-items: flex-start; /* Align items to the left */
+  gap: 20px;
+  border-radius: 10px;
+  flex-direction: column;
+}
+
+.booking-form-container select,
+.booking-form-container input[type="text"],
+.booking-form-container button {
+  width: calc(33.333% - 10px);
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-size: 16px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.booking-form-container select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><path d="M7 10l5 5 5-5H7z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  padding-right: 50px;
+  font-size: 14px; /* Set font size to make the text smaller */
+}
+
+.booking-form-container input[type="text"]::placeholder {
+  color: #999;
+}
+
+.form-btn {
+  width: 200px;
+  margin-top: 2%;
+  background-color: blanchedalmond;
+  color: black;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 50%;
+}
+
+.form-btn:hover {
+  background-color: tomato;
+  color: white;
+  transition: 0.7s;
+}
+
+.colored-line {
+  margin-left: 50%;
+  height: 8px; /* Adjust the height of the line */
+  background-color: rgb(255, 255, 255); /* Set the color of the line */
+  width: 400px;
+  border-radius: 100px;
+  box-shadow: 0px 0px 20px 0px rgba(255, 5, 5, 0.991);
+}
+
+.line-separator {
+  position: absolute;
+  margin-top: 1%;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgb(33, 33, 45),
+    rgba(255, 255, 255, 0)
+  );
+  z-index: 999;
+}

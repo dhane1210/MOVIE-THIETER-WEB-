@@ -1,0 +1,78 @@
+.footer1 {
+  width: 100%;
+  background-color: rgb(29, 29, 46);
+  border-top: 1px solid white;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: relative; /* Fixed positioning */
+  bottom: 0;
+  left: 0;
+}
+
+.container5 {
+
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-col:first-child {
+  margin-right:5px; /* Adjust the value as needed */
+}
+.footer-col {
+  flex: -1;
+  padding: 0 20px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer-col ul {
+  list-style-type: none;
+  padding: 0;
+  gap: 10px;
+}
+
+.footer-col ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.footer-col ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-col:first-child {
+  margin-right: 80px; /* Adjust the value as needed */
+}
+
+.footer-col ul li a:hover {
+  text-decoration: underline;
+  color: tomato;
+}
+
+.social-links {
+  display: flex; /* Make the social links flex container */
+  gap: 10px; /* Add some space between the icons */
+}
+
+.social-links a {
+  background-color: #fff;
+  color: #333;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: white;
+  background-color: tomato;
+}

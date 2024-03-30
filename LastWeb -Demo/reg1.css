@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+body {
+  padding: 80px;
+  position: relative;
+  background-size: cover;
+  background-color: rgb(33, 33, 45);
+  background-position: center;
+}
+
+.container {
+  height: auto;
+  max-width: 400px;
+  margin-top: 6%;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.1); /* Adjust the opacity as needed */
+  border-radius: 5px;
+  box-shadow: 0 0 40px rgba(167, 20, 20, 0.934);
+  backdrop-filter: blur(10px); /* Adjust the blur intensity as needed */
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.userlgn {
+  text-align: center;
+  margin-top: 60px;
+  color: white;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.custom-login-btn {
+  background-color: rgb(
+    33,
+    33,
+    45
+  ); /* Change the color to your desired color */
+  color: tomato; /* Text color */
+  border-width: 3px; /* Adjust the thickness as needed */
+  border-style: solid; /* Specify the border style */
+  border-color: tomato;
+}
+
+.custom-login-btn:hover {
+  background-color: tomato;
+  color: white; /* Change the hover color if needed */
+}
+.form-btn {
+  text-align: center;
+}
+.register-text {
+  color: white;
+}

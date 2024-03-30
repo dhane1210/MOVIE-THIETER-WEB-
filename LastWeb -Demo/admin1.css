@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(33, 33, 45);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  flex: 1;
+  background-color: rgb(123, 121, 121);
+  box-shadow: 0px 0px 20px 0px rgba(160, 40, 40, 0.991);
+  margin: 0 10px 20px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.section h2 {
+  text-decoration: underline;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #f10303;
+  color: #8f2525;
+}
+
+button {
+  background-color: tomato; /* Green background */
+  border: none; /* Remove borders */
+  border-radius: 15px;
+  width: 100%;
+  color: white; /* White text */
+  padding: 15px 32px; /* Padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Display as inline block */
+  font-size: 16px; /* Font size */
+  margin: 4px 2px; /* Margin */
+  transition-duration: 0.4s; /* Transition duration */
+  cursor: pointer; /* Cursor pointer */
+}
+
+/* On hover */
+button:hover {
+  background-color: #45a049; /* Darker green */
+  color: white; /* White text */
+}
